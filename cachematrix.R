@@ -4,8 +4,11 @@
 #makeCacheMatrix takes a matrix as input and mi a place holder for results of 
 #mi varialbe is set to null but will eventually be the inverse of the input matrix
 #the set portion allows one to record a new matrix input 
-#the get portion 
+#the get portion gets the value of the matrix
 #the setsolve function uses the solve base function to inverse the matrix
+#the getsolve gets the inversion of the matrix
+
+#the CachesSolve determines if a new inverstion matrix needs to be created it may return the cached matrix or complete a new caluclation. 
 
 ## Write a short comment describing this function
 
